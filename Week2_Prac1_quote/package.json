@@ -1,0 +1,23 @@
+{
+  "name": "week2_prac1_quote",
+  "version": "1.0.0",
+  "description": "Practice 1 in week 2",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuinnieLiu/SIT725.git"
+  },
+  "author": "Quinnie Liu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "bugs": {
+    "url": "https://github.com/QuinnieLiu/SIT725/issues"
+  },
+  "homepage": "https://github.com/QuinnieLiu/SIT725#readme",
+  "devDependencies": {}
+}
