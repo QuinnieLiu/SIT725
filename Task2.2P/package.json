@@ -1,0 +1,15 @@
+{
+  "name": "task2.2p",
+  "version": "1.0.0",
+  "description": "task2.2p_server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Quinnie Liu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
