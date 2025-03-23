@@ -1,0 +1,15 @@
+{
+  "name": "week3_prac1",
+  "version": "1.0.0",
+  "description": "About practice in Week3",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Quinnie Liu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
