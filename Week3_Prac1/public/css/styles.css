@@ -2,7 +2,7 @@
     width: 95%;
     margin: 0 auto;
 }
-
+/* logo */
 .user-image-size {
     height: 56px;
     margin: 4px 0;
@@ -16,7 +16,7 @@
 
 .materialboxed-image {
     margin: 0 auto;
-    height: 100px;
+    height: 30px;
 }
 
 .click-me-button {
