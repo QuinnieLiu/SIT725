@@ -10,6 +10,12 @@ const cardList = [
         image: "images/puppy-1047521_1280.jpg",
         link: "About this puppy",
         description: "Demo description about puppy"
+    },
+    {
+        title: "Cat",
+        image: "images/ai-generated-8359510_1280",
+        link: "About this cat",
+        description: "Demo description about cat"
     }
 ]
 
