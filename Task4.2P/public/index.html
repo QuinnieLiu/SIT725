@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SIT 725 Prac 3</title>
+  <meta name="description" content="basic template for SIT 725 Prac 4">
+  <meta name="author" content="Quinnie">
+
+  <meta property="og:title" content="SIT 725 Prac 4">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="basic template for SIT 725 Prac 4">
+  <!-- Include Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Google icon-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- Custom Style Sheet-->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-wrapper navbar-size">
+      <a href="#" class="brand-logo left"><img class="user-image-size" src="images/favicon.png"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a target="_blank" href="https://www.linkedin.com/in/navit-choudhary- 5133b9104/">LinkedIn</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="main-body">
+    <div class="container">
+
+      <div class="row">
+        <div class="col s12 center-align">
+          <h3 id="heading">Welcome to SIT 725 Week 4</h3>
+          <p class="flow-text">This page includes some information about Pig, Puppy and Cat.</p>
+        </div>
+        <div class="col s12 center-align">
+          <img class="materialboxed materialboxed-image" src="images/car-8337200_1280.png">
+        </div>
+        <div class="col s12 center-align">
+          <a class="waves-effect waves-light btn click-me-button modal-trigger" id="clickMeButton" data-target="modal1"><i class="material-icons left">auto_fix_high</i>Click Me</a>
+        </div>
+      </div>
+
+      <!-- <div id="card-section"></div> -->
+      <div class="row">
+        <div class="col s4 center-align">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-red">
+              <img class="activator" src="images/pig-dog-2613125_1280.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Pig<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">About this pig</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title red-text text-darken-4">Pig<i class="material-icons right">close</i></span>
+              <p class="card-text grey-text">Hey there. This is a lovley pig.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 center-align">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/puppy-1047521_1280.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Puppy<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">About this puppy</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Puppy<i class="material-icons right">close</i></span>
+              <p class="card-text grey-text">Hey there. This is a lovley puppy.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 center-align">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/ai-generated-8359510_1280.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Cat<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">About this cat</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Cat<i class="material-icons right">close</i></span>
+              <p class="card-text grey-text">Hey there. This is a lovley cat.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer">
+      <div class="row modal-content">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Placeholder" id="first_name" type="text" class="validate"> <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate"> <label for="password">Password</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12 center-align">
+              <a class="waves-effect waves-light btn" id="formSubmit">submit</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Include JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
