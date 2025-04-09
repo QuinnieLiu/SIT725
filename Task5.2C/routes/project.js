@@ -8,4 +8,7 @@ router.get('/', projectController.getAllProjects);
 // POST insert sample projects
 router.post('/insert-sample', projectController.insertSampleProjects);
 
+// insert seed data
+// router.get('/insert-sample', projectController.insertSampleProjects);
+
 module.exports = router;
