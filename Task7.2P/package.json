@@ -1,0 +1,24 @@
+{
+  "name": "week7_task7.2",
+  "version": "1.0.0",
+  "description": "Week7_Task7.2",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "nodemon server.js"
+  },
+  "author": "Quinnie Liu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0",
+    "request": "^2.88.2"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
